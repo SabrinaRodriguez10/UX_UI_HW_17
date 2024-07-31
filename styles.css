@@ -1,0 +1,42 @@
+nav {
+  display: flex;
+  padding: 1%;
+}
+
+.logo {
+  width: 23%;
+}
+
+.nav-items {
+  width: 73%;
+  text-align: right;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.header-text {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background-color: rgb(184, 142, 142);
+  padding: 1%;
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+.portfolio-picture {
+  height: 4rem;
+  width: 4rem;
+}
