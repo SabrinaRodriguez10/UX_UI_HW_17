@@ -84,3 +84,66 @@ section {
 .about-me {
   font-size: 24px;
 }
+
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .mySkills, .myWork {
+            background: #F7F7F7;
+            margin: 20px 0;
+        }
+        .mySkills h1, .myWork h1 {
+            text-align: center;
+        }
+        .flexContainer, .workGrid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .flexContainer > div, .workGrid > div {
+            background: #fff;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 20px;
+            flex: 1 1 30%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .flexContainer img, .workGrid img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+        .workGrid > div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .workGrid > div > div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .workGrid button {
+            padding: 10px 20px;
+            margin-top: 10px;
+            background: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .workGrid button:hover {
+            background: #0056B3;
+        }
+        .viewAll {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+
