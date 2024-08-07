@@ -117,7 +117,7 @@ section {
             text-align: center;
         }
         .flexContainer img, .workGrid img {
-            max-width: 100px;
+            max-width: 23px;
             margin-bottom: 10px;
         }
         .workGrid > div {
